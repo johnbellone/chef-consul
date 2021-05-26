@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 5.0.0 - *2021-05-27*
+- Set minimum Chef version to 15+
+- Replace `poise_archive` with `archive_file`
+
 ## 4.5.0 - *2021-03-31*
 
 - Added `advertise_addr_ipv4` and `advertise_addr_ipv6` attributes
@@ -81,7 +85,7 @@
 
 - Add back the dependency on build-essential cookbook to restore Chef Infra Client < 14 compatibility
 - Remove the complex compile_time logic to install the gem in the default recipe as compile_time is available in Chef Infra Client 12.1+
-- Added 3 new resources for Consule 1.5+
+- Added 3 new resources for Consul 1.5+
   - consul_token
   - consul_policy
   - consul_role
