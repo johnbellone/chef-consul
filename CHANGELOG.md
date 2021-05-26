@@ -5,6 +5,7 @@
 ## 5.0.0 - *2021-05-27*
 - Set minimum Chef version to 15+
 - Replace `poise_archive` with `archive_file`
+- Remove `build_essential` since it's already included in Chef 14+
 
 ## 4.5.0 - *2021-03-31*
 
