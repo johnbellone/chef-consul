@@ -2,7 +2,6 @@
 
 ## Unreleased
 
-## 5.0.0 - *2021-05-27*
 - Set minimum Chef version to 15+
 - Replace `poise_archive` with `archive_file`
 - Replace `poise_service_user` with `user` and `group` resources
