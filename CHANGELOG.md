@@ -7,6 +7,8 @@
 - Replace `poise_service_user` with `user` and `group` resources
 - Remove `build_essential` since it's already included in Chef 14+
 
+## 4.5.1 - *2021-06-01*
+
 ## 4.5.0 - *2021-03-31*
 
 - Added `advertise_addr_ipv4` and `advertise_addr_ipv6` attributes
