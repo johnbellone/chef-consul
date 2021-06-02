@@ -58,7 +58,9 @@ jobs:
       - name: Check out code
         uses: actions/checkout@master
       - name: Install Chef
-        uses: actionshub/chef-install@master
+        uses: actionshub/chef-install@main
+        with:
+          version: 15.3.14
       - name: Dokken
         uses: actionshub/kitchen-dokken@master
         env:

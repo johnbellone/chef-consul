@@ -11,7 +11,7 @@ group node['consul']['service_group'] do
 end
 
 user node['consul']['service_user'] do
-  comment "Service user for #{node['consul']['service_user']}"
+  comment "Service user for #{node['consul']['service_name']}"
   group node['consul']['service_group']
   shell node['consul']['service_shell'] unless node['consul']['service_shell'].nil?
   not_if { node.platform_family?('windows') }
